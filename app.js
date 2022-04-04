@@ -100,7 +100,9 @@ let counter1 = new Counter(decrementButtons, incrementButtons, quantityValue);
 
 // slider
 
-$(".slider-block").slick();
+$(".slider-block").slick({
+  dots: true,
+});
 
 // let decrementButtons = document.querySelectorAll(".decrement-button")[0];
 // let incrementButtons = document.querySelectorAll(".increment-button")[0];
