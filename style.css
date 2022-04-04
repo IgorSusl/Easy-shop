@@ -452,5 +452,11 @@ label {
   display: block;
 }
 .product-quantity {
-  padding-left: 15px;
+  text-align: center;
+}
+.slider-block>div{
+  text-align: center;
+  font-size: 50px;
+  padding: 150px 0;
+  color: white;
 }
